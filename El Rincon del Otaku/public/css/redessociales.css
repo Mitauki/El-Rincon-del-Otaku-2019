@@ -1,0 +1,25 @@
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul li a{
+    display: inline-block;
+    color: #abc;
+    background: #000;
+    text-decoration: none;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook{background: #000;}
+.social ul li .icon-twitter{background: #000;}
+.social ul li .icon-email{background: #000;}
+
+.social ul li a:hover{
+    background: #125;
+    padding: 10px 30px;
+}

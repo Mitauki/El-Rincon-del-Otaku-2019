@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title> EL Rincon del Otauku</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Background -->
+  <link href="css/blog-home.css" rel="stylesheet">
+
+  <link rel="icon" href="imagenes/otaku.ico">
+
+  <!-- Compiled and minified Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Minified JS library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Compiled and minified Bootstrap JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- update the version number as needed -->
+  <script defer src="/__/firebase/7.6.0/firebase-app.js"></script>
+  <!-- include only the Firebase features as you need -->
+  <script defer src="/__/firebase/7.6.0/firebase-auth.js"></script>
+  <script defer src="/__/firebase/7.6.0/firebase-database.js"></script>
+  <script defer src="/__/firebase/7.6.0/firebase-messaging.js"></script>
+  <script defer src="/__/firebase/7.6.0/firebase-storage.js"></script>
+  <!-- initialize the SDK after all desired features are loaded -->
+  <script defer src="/__/firebase/init.js"></script>
+
+  
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a href="index.html"> <img src="imagenes/otaku.jpg" width="100px" height="100px"  alt=""/></a> <br>
+      <div class="container">  
+         <a class="navbar-brand" href="index.html">  El Rincon del Otaku</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SobreNosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <!-- Page Content -->
+  
+    <div class="container">
+  
+      <div class="row">
+  
+        <!-- Blog Entries Column -->
+        <div class="col-md-8">
+  
+          <h1 class="my-4">Animes
+            <small>Estrenos</small>
+          </h1>
+  
+          <!-- Blog Post -->
+          <div class="card mb-4">
+            <img class="card-img-top"
+              src="https://vignette.wikia.nocookie.net/highschooldxd/images/f/f0/Wikia-Visualization-Main.png/revision/latest/scale-to-width-down/670?cb=20130505105839&path-prefix=es"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">High School DxD</h2>
+              <h3 class="card-title">Sipnosis</h3>
+              <p class="card-text">La historia está protagonizada por Issei Hyoudou, un muchacho de segundo año de
+                instituto bastante salido al que una chica asesina en la primera cita de su vida. Issei se reencarna como
+                demonio, y desde ese mismo día trabaja como sirviente de Riasu, una chica demonio de altísimo nivel que
+                resulta ser la más guapa y popular de todo el instituto.</p>
+              <a href="High School DxD.html" class="btn btn-danger">Leer mas &rarr;</a>
+  
+            </div>
+            <div class="card-footer text-muted">
+              Subido el 5 de Diciembre del 2019
+            </div>
+          </div>
+  
+          <!-- Blog Post -->
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://image.tmdb.org/t/p/w500_and_h282_face/ezexhcsiR85ozwfRQv409bypDrj.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">ToraDora!</h2>
+              <h3 class="card-title">Sipnosis</h3>
+              <p class="card-text">Takasu Ryuuji comienza su segundo año de instituto con mucho animo. Sin embargo, hay
+                una cosa que el odia, y es su mirada, heredada de su padre (un ganster), con lo cual posee una habilidad
+                innata para intimidar a los demás, provocándole esto muchos malentendidos con sus compañeros, no obstante,
+                todo esto va cambiar el primer día de clases, cuando Ryuuji tiene un encontronazo con Aisaka Taiga, la
+                persona mas peligrosa del centro.</p>
+              <a href="toradora.html" class="btn btn-danger">Leer mas &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Subido el 5 de Diciembre del 2019
+            </div>
+          </div>
+  
+          <!-- Blog Post -->
+          <div class="card mb-4">
+            <img class="card-img-top"
+              src="https://elcomercio-depor-prod.cdn.arcpublishing.com/resizer/JF274xqvbb6SVNQF99XUHhKKzCY=/980x528/smart/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/PJQLOBROWZBR7EAK2ZSGH5KB74.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Neon Genesis Evangelion</h2>
+              <h3 class="card-title">Sipnosis</h3>
+              <p class="card-text">Según cuentan los libros de historia, el 13 de Septiembre del 2000, un enorme meteorito
+                chocó contra la Antártida, causando el derretimiento del Polo Sur y la consecuente inundación y
+                destrucción de todas las ciudades costeras. A este evento crucial se lo denomino Segundo Impacto -El
+                primero fue el que destruyó a los dinosaurios.
+              </p>
+              <a href="evangelion.html" class="btn btn-danger">Leer mas &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Subido el 5 de Diciembre del 2019
+            </div>
+          </div>
+  
+          <!-- Blog Post -->
+          <div class="card mb-4">
+            <img class="card-img-top"
+              src="https://www.monstersandcritics.com/wp-content/uploads/2018/10/Sword-Art-Online-Season-4-release-date-SAO-Unital-Ring-light-novels-the-sequel-to-the-four-cour-Alicization-anime-Spoilers.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">Sword Art Online</h2>
+              <h3 class="card-title">Sipnosis</h3>
+              <p class="card-text">Escapar es imposible hasta terminar el juego; un game over significaría una verdadera
+                "muerte". Sin saber la "verdad" de la siguiente generación del Multijugador Masivo Online, 'Sword Art
+                Online(SAO)', con 10 mil usuarios unidos juntos abriendo las cortinas para esta cruel batalla a muerte.
+                Participando solo en SAO, el protagonista Kirito ha aceptado inmediatamente la "verdad" de este MMO.
+                <br /><br /> Y, en el mundo del juego, un gigante castillo flotante llamado 'Aincrad', Kirito se
+                distinguió a si mismo como un jugador solitario. Apuntando a terminar el juego al alcanzar la planta mas
+                alta el solo continua avanzando arriesgadamente hasta que recibe una invitación a la fuerza de una
+                guerrera y esgrimista experta, Asuna, con la cual tendra que hacer equipo.</p>
+              <a href="Sao.html" class="btn btn-danger">Leer mas &rarr;</a>
+            </div>
+            <div class="card-footer text-muted">
+              Subido el 5 de Diciembre del 2019
+            </div>
+          </div>
+        </div>
+  
+  
+        <!-- Sidebar Widgets Column -->
+        <div class="col-md-4">
+  
+          <!-- Search Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Buscar</h5>
+            <div class="card-body">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Lets GO!">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Categories Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Otros Animes</h5>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="hellsing.html">Hellsing</a>
+                    </li>
+                    <li>
+                      <a href="Bleach.html">Bleach</a>
+                    </li>
+                    <li>
+                      <a href="Dr.Stone.html">Dr.Stone</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="SoulEater.html">Soul Eater</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Side Widget -->
+          <div class="card my-4">
+            <h5 class="card-header">Reproductor de Musica</h5>
+            <div class="card-body">
+              <audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="musica/NieR_Automata_OST_-_City_Ruins_Dynamic_-_Vocals.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+  
+            <!-- /.carrusel -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+                <li data-target="#myCarousel" data-slide-to="8"></li>
+              </ol>
+  
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://animeflv.net/uploads/animes/covers/3153.jpg" alt="Dr. Stone" style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Dr. Stone</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/1.jpg" alt="Bleach" style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Bleach</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/460.jpg" alt="Neon Genesis Evangelion"
+                    style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Neon Genesis Evangelion</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/123.jpg" alt="Soul Eater" style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Soul Eater</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/825.jpg" alt="Sword Art Online"
+                    style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Sword Art Online</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/185.jpg" alt="Hellsing" style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>Hellsing</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/13.jpg" alt="ToraDora!" style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>ToraDora!</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+                <div class="item">
+                  <img src="https://animeflv.net/uploads/animes/covers/719.jpg" alt="High School DxD"
+                    style="width: 350px">>
+                  <div class="carousel-caption">
+                    <h3>High School DxD</h3>
+                    <p>Ver Ahora</p>
+                  </div>
+                </div>
+  
+              </div>
+  
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+      <!-- /.row -->
+  
+    </div>
+  
+    <!-- /.container -->
+  
+  
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; EL Rincon del Otaku</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+  
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+  </body>
+</html>

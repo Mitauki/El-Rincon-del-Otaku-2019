@@ -1,0 +1,14 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+  
+   }
+  body {
+  
+      background-image: url('../imagenes/thumb-1920-723778.png');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+  }
+  

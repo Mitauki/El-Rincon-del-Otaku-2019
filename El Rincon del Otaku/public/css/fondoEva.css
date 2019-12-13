@@ -1,0 +1,14 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;
+  
+   }
+  body {
+  
+      background-image: url('../imagenes/neon-genesis-evangelion-eva-unit-01-manga-fire-wallpaper.jpg');
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+  }
+  
