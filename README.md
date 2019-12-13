@@ -8,11 +8,12 @@
    
    ### A continuacion le mostramos unas imagenes de nuestra pagina:
    
-   https://web.whatsapp.com/6dd9451b-1b99-46e1-914c-a2f5394a5aa5
+![Screenshot_1](https://user-images.githubusercontent.com/51329477/70770977-517ca800-1d4e-11ea-81d9-cba40354eda7.png)
 
-   blob:https://web.whatsapp.com/4b3f3a0c-f62d-424d-8255-298767d75d5a
-   
-   blob:https://web.whatsapp.com/d0312e8c-11b1-4398-a128-39f91ab9a9c3
+![Screenshot_2](https://user-images.githubusercontent.com/51329477/70770980-54779880-1d4e-11ea-9821-9b74a38f16a7.png)
+
+![Screenshot_3](https://user-images.githubusercontent.com/51329477/70770983-57728900-1d4e-11ea-8b53-145d5fb60065.png)
+
    
    ### Esats son algunas de las paginas y animes que cuenta nuestra pagina.
    
