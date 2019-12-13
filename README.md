@@ -8,7 +8,7 @@
    
    ### A continuacion le mostramos unas imagenes de nuestra pagina:
    
-   blob:https://web.whatsapp.com/6dd9451b-1b99-46e1-914c-a2f5394a5aa5
+   https://web.whatsapp.com/6dd9451b-1b99-46e1-914c-a2f5394a5aa5
 
    blob:https://web.whatsapp.com/4b3f3a0c-f62d-424d-8255-298767d75d5a
    
